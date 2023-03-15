@@ -24,4 +24,4 @@ npm run lint
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ### View Live site
-see [Updated Counter App] (https://counter-app-olybeke.vercel.app/counter)
+see [Updated Counter App] (https://my-alt-counter-app.vercel.app/)
