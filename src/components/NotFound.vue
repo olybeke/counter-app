@@ -1,17 +1,18 @@
 <template>
-    <section>
+    <section class="section">
       <div class="image">
         <img src="@/assets/err.svg" alt="" />
     </div>
       <h1><span class='color'>Ooppss!! </span>404 Not Found</h1>
-      <p>The page you are looking for does not exist.</p>
-      <button class='submit-button'><router-link to="/counter">Return</router-link></button>
+      <p>The page you are looking for does not exist.
+        <button class='submit-button'><router-link to="/counter">Return</router-link></button>
+      </p>
     </section>
   </template>
   
 
   <style>
-  section {
+  .section {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -20,7 +21,7 @@
     max-width: 100%;
     padding: 2rem;
     margin: 0 auto;
-    background-color: #f7f7f7;
+    background-color: lightcyan;
     font-family: Arial, sans-serif;
   }
   .color{
@@ -53,8 +54,20 @@
     width: 300px;
     height: 300px;
     margin-top: 40px;
+    animation: scale 2s infinite ease-in-out;
   }
   img{
     width: 100%;
+  }
+  @keyframes scale {
+    0% {
+      scale: 0.9;
+    }
+    50% {
+      scale: 1.08;
+    }
+    100%{
+      scale: 0.9;
+    }
   }
 </style>

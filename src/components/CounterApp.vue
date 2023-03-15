@@ -1,8 +1,5 @@
 <template>
   <div class="counter">
-    <nav>
-      <h1 class="header"> Count</h1>
-    </nav>
     <div class="image">
         <img src="@/assets/data.svg" alt="" />
     </div>
@@ -48,38 +45,10 @@
   justify-content: center;
   min-height: 100vh;
   max-width: 100%;
-  background-color: #f7f7f7;
+  background-color: lightcyan;
   font-family: Arial, sans-serif;
 }
-nav{
-  position: absolute;
-  top: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: skyblue;
-  margin: 0 auto;
-  width: 80%;
-  padding: 2rem;
-  border-radius: 10px;
-  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.2);
-}
-.header{
-  font-family: header;
-  font-size: 3.8rem;
-  color: white;
-  font-weight: bolder;
-  font-weight: bolder;
-  cursor: pointer;
-  text-shadow: 0 0 2rem rgba(0, 0, 0, 0.2);
 
-}
-.header::after{
-  content: ' er';
-  color: blue;
-}
 .image{
   width: 300px;
   height: 300px;
